@@ -7,15 +7,14 @@ use LWP::UserAgent;
 use List::Util qw| min max sum|;
 use POSIX;
 use Time::Local;
-use warnings;
 
 my @sum = ();
 open my $fh,"<input.txt";
 
 
 # 1 add
-# 2 multiples
-# 99 ends
+# 2 multiply
+# 99 end
 
 my $string_array = '';
 my $current_position = 0;
